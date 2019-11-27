@@ -15,6 +15,7 @@ Average  Change: $-2315.12
 Greatest Increase in Profits: Feb-2012 ($1926159)
 Greatest Decrease in Profits: Sep-2013 ($-2196167)
 *  In addition, your final script should both print the analysis to the terminal and export a text file with the results.
+
 PyPoll
 *  In this challenge, you are tasked with helping a small, rural town modernize its vote-counting process. (Up until now, Uncle Cleetus had been trustfully tallying them one-by-one, but unfortunately, his concentration isn't what it used to be.)
 *  You will be give a set of poll data called election_data.csv. The dataset is composed of three columns: Voter ID, County, and Candidate. Your task is to create a Python script that analyzes the votes and calculates each of the following:
@@ -36,6 +37,24 @@ O'Tooley: 3.000% (105630)
 Winner: Khan
 -------------------------
 *  In addition, your final script should both print the analysis to the terminal and export a text file with the results
+PyBoss
+
+Import the employee_data.csv file, which currently holds employee records like the below:
+Emp ID,Name,DOB,SSN,State
+214,Sarah Simpson,1985-12-04,282-01-8166,Florida
+15,Samantha Lara,1993-09-08,848-80-7526,Colorado
+411,Stacy Charles,1957-12-20,658-75-8526,Pennsylvania
+* Then convert and export the data to use the following format instead:
+Emp ID,First Name,Last Name,DOB,SSN,State
+214,Sarah,Simpson,12/04/1985,***-**-8166,FL
+15,Samantha,Lara,09/08/1993,***-**-7526,CO
+411,Stacy,Charles,12/20/1957,***-**-8526,PA
+* In summary, the required conversions are as follows:
+o The Name column should be split into separate First Name and Last Name columns.
+o The DOB data should be re-written into MM/DD/YYYY format.
+o The SSN data should be re-written such that the first five numbers are hidden from view.
+o The State data should be re-written as simple two-letter abbreviations.
+
 
 
 
