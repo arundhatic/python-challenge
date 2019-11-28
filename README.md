@@ -56,6 +56,23 @@ o The DOB data should be re-written into MM/DD/YYYY format.
 o The SSN data should be re-written such that the first five numbers are hidden from view.
 o The State data should be re-written as simple two-letter abbreviations.
 
+PyParagraph
+* Import a text file filled with a paragraph of your choosing.
+* Assess the passage for each of the following:
+o Approximate word count
+o Approximate sentence count
+o Approximate letter count (per word)
+o Average sentence length (in words)
+* As an example, this passage:
+“Adam Wayne, the conqueror, with his face flung back and his mane like a lion's, stood with his great sword point upwards, the red raiment of his office flapping around him like the red wings of an archangel. And the King saw, he knew not how, something new and overwhelming. The great green trees and the great red robes swung together in the wind. The preposterous masquerade, born of his own mockery, towered over him and embraced the world. This was the normal, this was sanity, this was nature, and he himself, with his rationality, and his detachment and his black frock-coat, he was the exception and the accident a blot of black upon a world of crimson and gold.”
+...would yield these results:
+Paragraph Analysis
+-----------------
+Approximate Word Count: 122
+Approximate Sentence Count: 5
+Average Letter Count: 4.6
+Average Sentence Length: 24.0
+
 
 
 
